@@ -447,13 +447,14 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 22px;
-  padding-bottom: 4.5rem;
+  align-items: center;
+  color: var(--blue);
+  margin: 1rem;
 }
 
-.logo {
-  height: 35px;
-  width: 8.9rem;
+.header .logo,
+.footer .logo {
+  height: 28px;
 }
 
 .footer {
@@ -601,10 +602,6 @@ body {
     background-image: url(../assets/image-hero-desktop.png);
     background-position: 18px -180px;
     background-size: auto 120%;
-  }
-  .logo {
-    width: 114px;
-    height: 45px;
   }
   .intro-heading {
     font-size: 56px;
